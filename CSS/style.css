@@ -1,13 +1,29 @@
 body {
-    text-align: c6enter;
+    text-align: center;
     color: black;
 }
 #contenedor{
     border: 1px solid black;
     width: 50%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+}
+.texto {
+    text-align: justify;
+    margin: 1rem;
 }
 #post h1 {
     font-size: 3rem;
+}
+.cabecera {
+    -webkit-box-shadow: 0px 6px 13px 2px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 6px 13px 2px rgba(0,0,0,0.66);
+box-shadow: 0px 6px 13px 2px rgba(0,0,0,0.66);
+    background-color: blue;
+}
+.cabecera p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
 }
